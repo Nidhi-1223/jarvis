@@ -1,0 +1,2 @@
+# Jarvis - AI Virtual Assistant
+This AI Virtual Assistant draws its inspiration from Tony Stark's creation in the famous movie Iron Man. Powered by the OpenAI API, this chatbot excels in various tasks. Much like ChatGPT, it adeptly writes code and provides informative answers to questions. Moreover, engaging in a lifelike human conversation is one of its notable abilities. Beyond that, it can also entertain by playing songs, and even capture pictures, making it a versatile and helpful companion.
