@@ -1,0 +1,20 @@
+Chatgpt response for - using artificial intelligence write a python code that automatically send email via Gmail 
+ ------------------------- 
+
+
+
+import smtplib
+
+#set up the SMTP server
+s = smtplib.SMTP(host='smtp.gmail.com', port=587)
+s.starttls()
+
+#Login to the email account
+s.login("your_username@gmail.com", "your_password")
+
+#Send the mail
+msg = "Your message"
+s.sendmail("from_username@gmail.com", "to_username@gmail.com", msg)
+
+#Terminate the SMTP session and close the connection
+s.quit()
